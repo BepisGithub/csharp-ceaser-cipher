@@ -9,10 +9,15 @@ namespace csharp_ceaser_cipher
         {
             //checks if the shift is negative
             bool negative = shift < 0;
+            shift = Math.Abs(shift);
             //it doesnt loop back around
             while(shift >= 26)
             {
                 shift -= 26;
+            }
+            if (negative)
+            {
+                shift = 26 - shift;
             }
             return shift;
         }
