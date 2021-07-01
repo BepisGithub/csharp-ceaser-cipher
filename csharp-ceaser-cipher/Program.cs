@@ -34,8 +34,8 @@ namespace csharp_ceaser_cipher
                 //This if else statement changes the value of the letter code
                 if (LetterCode >= 65 && LetterCode <= 90) //It's a capital letter
                 {
-                    if((LetterCode + Shift) > 90) {
-                        LetterCode = ((LetterCode + Shift) - 90) + 65;
+                    if ((LetterCode + Shift) > 90) {
+                        LetterCode = ((LetterCode + Shift) - 90) + 64;
                     }
                     else
                     {
@@ -46,7 +46,7 @@ namespace csharp_ceaser_cipher
                 {
                     if ((LetterCode + Shift) > 122)
                     {
-                        LetterCode = ((LetterCode + Shift) - 122) + 97;
+                        LetterCode = ((LetterCode + Shift) - 122) + 96;
                     }
                     else
                     {
@@ -60,7 +60,7 @@ namespace csharp_ceaser_cipher
 
         static void Main(string[] args)
         {
-            Console.WriteLine(CeaserCipher("hello",5));
+            Console.WriteLine(CeaserCipher("Hello, World!",-1));
         }
     }
 }
