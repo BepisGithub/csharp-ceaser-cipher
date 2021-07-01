@@ -31,13 +31,27 @@ namespace csharp_ceaser_cipher
                 //There needs to be a distinction between lowercase and uppercase letters
                 char Letter = InputArray[i];
                 int LetterCode = (int)Letter;
+                //This if else statement changes the value of the letter code
                 if (LetterCode >= 65 && LetterCode <= 90) //It's a capital letter
                 {
-
+                    if((LetterCode + Shift) > 90) {
+                        LetterCode = ((LetterCode + Shift) - 90) + 65;
+                    }
+                    else
+                    {
+                        LetterCode += Shift;
+                    }
                 }
                 else if (LetterCode >= 97 && LetterCode <= 122) //It's a lowercase letter
                 {
-
+                    if ((LetterCode + Shift) > 122)
+                    {
+                        LetterCode = ((LetterCode + Shift) - 122) + 97;
+                    }
+                    else
+                    {
+                        LetterCode += Shift;
+                    }
                 }
             }
             return InputArray.ToString();
