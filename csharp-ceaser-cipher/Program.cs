@@ -22,15 +22,15 @@ namespace csharp_ceaser_cipher
             return shift;
         }
 
-        static string CeaserCipher(string input, int shift)
+        static string CeaserCipher(string Input, int Shift)
         {
-            char[] InputArray = input.ToCharArray();
-            shift = SimplifyShift(shift);
+            char[] InputArray = Input.ToCharArray();
+            Shift = SimplifyShift(Shift);
             for(int i = 0; i < InputArray.Length; i++)
             {
                 //There needs to be a distinction between lowercase and uppercase letters
-                char letter = InputArray[i];
-                int letterCode = (int)letter;
+                char Letter = InputArray[i];
+                int LetterCode = (int)Letter;
 
             }
             return InputArray.ToString();
