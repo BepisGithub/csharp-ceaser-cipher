@@ -1,0 +1,13 @@
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\bin\Debug\netcoreapp3.1\csharp-ceaser-cipher.exe
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\bin\Debug\netcoreapp3.1\csharp-ceaser-cipher.deps.json
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\bin\Debug\netcoreapp3.1\csharp-ceaser-cipher.runtimeconfig.json
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\bin\Debug\netcoreapp3.1\csharp-ceaser-cipher.runtimeconfig.dev.json
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\bin\Debug\netcoreapp3.1\csharp-ceaser-cipher.dll
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\bin\Debug\netcoreapp3.1\csharp-ceaser-cipher.pdb
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\obj\Debug\netcoreapp3.1\csharp-ceaser-cipher.csprojAssemblyReference.cache
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\obj\Debug\netcoreapp3.1\csharp-ceaser-cipher.csproj.CoreCompileInputs.cache
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\obj\Debug\netcoreapp3.1\csharp-ceaser-cipher.AssemblyInfoInputs.cache
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\obj\Debug\netcoreapp3.1\csharp-ceaser-cipher.AssemblyInfo.cs
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\obj\Debug\netcoreapp3.1\csharp-ceaser-cipher.dll
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\obj\Debug\netcoreapp3.1\csharp-ceaser-cipher.pdb
+C:\Users\Bopis\Desktop\development\csharp-ceaser-cipher\csharp-ceaser-cipher\obj\Debug\netcoreapp3.1\csharp-ceaser-cipher.genruntimeconfig.cache
