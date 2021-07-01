@@ -28,6 +28,9 @@ namespace csharp_ceaser_cipher
             shift = SimplifyShift(shift);
             for(int i = 0; i < InputArray.Length; i++)
             {
+                //There needs to be a distinction between lowercase and uppercase letters
+                char letter = InputArray[i];
+                int letterCode = (int)letter;
 
             }
             return InputArray.ToString();
