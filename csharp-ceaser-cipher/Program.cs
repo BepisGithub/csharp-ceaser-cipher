@@ -7,14 +7,14 @@ namespace csharp_ceaser_cipher
 
         static string CeaserCipher(string input, int shift)
         {
-            string shifted = "";
-
-            return shifted;
+            char[] InputArray = input.ToCharArray();
+            
+            return InputArray.ToString();
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(CeaserCipher("hello",5));
         }
     }
 }
