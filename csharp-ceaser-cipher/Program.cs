@@ -53,6 +53,7 @@ namespace csharp_ceaser_cipher
                         LetterCode += Shift;
                     }
                 }
+                InputArray[i] = (char)LetterCode;
             }
             return InputArray.ToString();
         }
