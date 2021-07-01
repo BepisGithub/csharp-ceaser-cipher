@@ -55,7 +55,7 @@ namespace csharp_ceaser_cipher
                 }
                 InputArray[i] = (char)LetterCode;
             }
-            return InputArray.ToString();
+            return new String(InputArray);
         }
 
         static void Main(string[] args)
