@@ -7,6 +7,8 @@ namespace csharp_ceaser_cipher
 
         static int SimplifyShift(int shift)
         {
+            //checks if the shift is negative
+            bool negative = shift < 0;
             //it doesnt loop back around
             while(shift >= 26)
             {
